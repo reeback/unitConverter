@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Unit Converter</h1>
+    <div class="background">
+      <div class="heading">Metric/Imperial unit conversion</div>
+      <div id="number">20</div>
+    </div>
+    <div class="results">
+      <div class="supporting">Length (Meter/Feet)</div>
+      <div class="text">
+        <span id="metersEl">0</span> meters = <span id="feet">0</span> feet |
+        <span id="feetQ">0</span>
+        feet = <span id="meters">0</span> meters
+      </div>
+      <div><br /></div>
+      <div class="supporting">Volume (Liters/Gallons)</div>
+      <div class="text">
+        0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+      </div>
+      <div><br /></div>
+      <div class="supporting">Mass (Kilograms/Pounds)</div>
+      <div class="text">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</div>
+    </div>
   </body>
+  <script src="index.js"></script>
 </html>
