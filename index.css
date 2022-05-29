@@ -1,26 +1,36 @@
-.background {
-  position: absolute;
-  width: 550px;
-  height: 260px;
-  left: 0px;
-  top: 0px;
+* {
+  font-family: "Inter";
+  font-style: normal;
+}
+body {
+  background: linear-gradient(246.26deg, #c1c6da 0%, #5f78b8 100%);
+  padding-bottom: 80px;
+}
+.Converter {
+  background-color: #fff;
+  max-width: 450px;
+  text-align: center;
+  margin: 0 auto;
+}
 
+.unit {
+  font-size: 70px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.background {
   background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+  height: 200px;
 }
 
 /* number to convert */
 #number {
-  position: absolute;
-  width: 211px;
-  height: 51.23px;
-  left: 169px;
-  top: 155px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
   font-size: 97.5723px;
-  line-height: 24px;
+
   /* or 25% */
 
   text-align: center;
@@ -29,12 +39,6 @@
 }
 
 .heading {
-  position: absolute;
-  width: 448.4px;
-  height: 38px;
-  left: 51px;
-  top: 53px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
@@ -46,14 +50,10 @@
   letter-spacing: -0.05em;
 
   color: #ffffff;
+  padding-top: 20px;
 }
 
 .results {
-  position: absolute;
-  width: 346px;
-  height: 215px;
-  left: 102px;
-  top: 297px;
 }
 .supporting {
   font-family: "Inter";
