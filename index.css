@@ -2,9 +2,8 @@
   font-family: "Inter";
   font-style: normal;
 }
-body {
-  background: linear-gradient(246.26deg, #c1c6da 0%, #5f78b8 100%);
-  padding-bottom: 80px;
+html {
+  background: linear-gradient(270deg, #c1c6da 0%, #5f78b8 100%);
 }
 .Converter {
   background-color: #fff;
@@ -14,7 +13,7 @@ body {
 }
 
 .unit {
-  font-size: 70px;
+  font-size: 60px;
   color: #1f2937;
   text-align: center;
 }
